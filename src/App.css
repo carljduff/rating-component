@@ -31,17 +31,20 @@ body {
 }
 
 .star-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--dark);
   border-radius: 50%;
   height: 75px;
   width: 75px;
-  margin: 25px
+  margin: 25px;
+  
 }
 
-.star-icon {
-  color: var(--orange);
-  font-size: 40px;
-  
+.star {
+  width: 35px;
+  height: 35px;
 }
 
 .heading {
