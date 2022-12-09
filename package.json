@@ -1,6 +1,6 @@
 {
   "name": "rating-component",
-  "homepage": "http://carljduff.github.io/rating-component/public/index.html",
+  "homepage": "http://carljduff.github.io/rating-component/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
