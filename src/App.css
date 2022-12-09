@@ -14,6 +14,7 @@ body {
 
 .attribution { 
   font-size: 11px; text-align: center; 
+  margin-top: 10px;
 }
 
 .attribution a { 
@@ -25,9 +26,8 @@ body {
   margin: 0 auto;
   max-width: 600px;
   height: 550px;
-  padding: 20px;
-  /* text-align: center; */
   border-radius: 25px;
+  padding: 10px;
 }
 
 .star-circle {
@@ -38,7 +38,9 @@ body {
   border-radius: 50%;
   height: 75px;
   width: 75px;
-  margin: 25px;
+  margin-left: 15px;
+  margin-top: 25px;
+
   
 }
 
@@ -81,7 +83,7 @@ body {
   color: var(--white);
 }
 
-.submit-button {
+.submit-button, .submit-button-error {
   background-color: var(--orange);
   border-radius: 50px;
   height: 60px;
@@ -95,12 +97,29 @@ body {
   cursor: pointer;
 }
 
+.submit-button-error {
+  margin-top: 0 !important;
+}
+
 .submit-button:active {
   background-color: var(--white);
   color: var(--orange);
 }
 
 .rating-button-click {
+  background-color: var(--orange);
+  color: var(--white);
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+  margin-left: 40px;
+  border: none;
+  font-size: 25px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.rating-button:active {
   background-color: var(--orange);
   color: var(--white);
   border-radius: 50%;
@@ -141,12 +160,6 @@ body {
   text-align: center;
 }
 
-/* .img {
-  margin-bottom: 20px;
- 
-
-} */
-
 .thank-state {
   display: flex;
   flex-flow: column wrap;
@@ -154,3 +167,67 @@ body {
   align-items: center;
   gap: 25px;
 }
+
+.submit-error {
+  text-align: center;
+  color: red;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 320px) { 
+  .rating-button, .rating-button:hover, .rating-button-click {
+    height: 40px;
+    width: 40px;
+    margin-left: 15px;
+  }
+  
+  .submit-button, .submit-button-error {
+    height: 37px;
+    width: 277px;
+    margin-left: 5px;
+    margin-top: 24px;
+  }
+
+  .app {
+    height: 660px;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+  .submit-button, .submit-button-error {
+    height: 46px;
+    width: 291px;
+    margin-left: 20px;
+    margin-top: 24px;
+  }
+
+  .rating-button, .rating-button:hover, .rating-button-click {
+    height: 50px;
+    width: 50px;
+    margin-left: 15px;
+  }
+
+  .app {
+    height: 620px;
+  }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 729px) { 
+  .submit-button, .submit-button-error {
+    height: 46px;
+    width: 291px;
+    margin-left: 40px;
+    margin-top: 24px;
+  }
+
+  .rating-button, .rating-button:hover, .rating-button-click {
+    height: 50px;
+    width: 50px;
+    margin-left: 22px;
+  }
+
+  .app {
+    height: 590px;
+  }
+}
+
