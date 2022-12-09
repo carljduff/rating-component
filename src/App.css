@@ -76,11 +76,13 @@ body {
   font-size: 25px;
   font-weight: 400;
   cursor: pointer;
+  text-align: center;
 }
 
 .rating-button:hover {
   background-color: var(--light);
   color: var(--white);
+  text-align: center;
 }
 
 .submit-button, .submit-button-error {
@@ -117,6 +119,7 @@ body {
   font-size: 25px;
   font-weight: 400;
   cursor: pointer;
+  text-align: center;
 }
 
 .rating-button:active {
@@ -130,6 +133,7 @@ body {
   font-size: 25px;
   font-weight: 400;
   cursor: pointer;
+  text-align: center;
 }
 
 .selection-message {
