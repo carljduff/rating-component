@@ -7,6 +7,10 @@
   --orange: hsl(25, 97%, 53%);
 }
 
+.buttons {
+  text-align: center;
+}
+
 body {
   font-family: 'Overpass', sans-serif;
   font-size: 15px;
@@ -133,7 +137,6 @@ body {
   font-size: 25px;
   font-weight: 400;
   cursor: pointer;
-  text-align: center;
 }
 
 .selection-message {
