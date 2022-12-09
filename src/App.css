@@ -7,9 +7,7 @@
   --orange: hsl(25, 97%, 53%);
 }
 
-.buttons {
-  text-align: center;
-}
+
 
 body {
   font-family: 'Overpass', sans-serif;
@@ -81,12 +79,14 @@ body {
   font-weight: 400;
   cursor: pointer;
   text-align: center;
+  padding: 0;
 }
 
 .rating-button:hover {
   background-color: var(--light);
   color: var(--white);
   text-align: center;
+  padding: 0;
 }
 
 .submit-button, .submit-button-error {
@@ -124,6 +124,7 @@ body {
   font-weight: 400;
   cursor: pointer;
   text-align: center;
+  padding: 0;
 }
 
 .rating-button:active {
@@ -137,6 +138,7 @@ body {
   font-size: 25px;
   font-weight: 400;
   cursor: pointer;
+  padding: 0;
 }
 
 .selection-message {

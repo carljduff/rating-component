@@ -40,10 +40,10 @@ const Frame = () => {
            Please let us know how we did with your support request. All feedback
            is appreciated to help us improve our offering!
          </p>
-         <div className="buttons">
+         
          {buttons}
 
-         </div>
+        
 
          {error ? (
            <p className="submit-error">Please rate before submitting!</p>
